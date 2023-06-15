@@ -3,7 +3,7 @@ def calculate_gc_content(dna_string):
     gc_count = dna_string.count('G') + dna_string.count('C')
     return gc_count / len(dna_string)
 
-# Read in the DNA strings from the FASTA file
+# Read in the DNA strings from the FASTA files
 fasta_file = open('rosalind_gc.txt')
 dna_strings = {}
 current_id = ''
